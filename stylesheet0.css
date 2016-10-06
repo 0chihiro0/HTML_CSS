@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+}
+
+article {
+    background-color: #ECECEE;
+}
+
+h1,h2,h3,p {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+section > h2 {
+    margin-bottom: 20px;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+    height: 0;
+    visibility: hidden;
+}
+
+/*-----------header-----------*/
+
+header {
+    height: 340px;
+    background-image: url("./img/technology.jpg");
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#pageTop {
+    width: 940px;
+    margin: 0  auto;
+}
+
+#mainTopic {
+   float: left%;
+   width: 65%;
+}
+
+#pageTitle {
+   color:white;
+   font-size : 36px;
+   border-bottom: solid 5px yellow;
+}
+
+#pageSubtitle_en {
+    font-size: 24px;
+    color:white;
+    font-family:Helvetica,sans-serif;
+}
+
+#catchcopy {
+    color: white;
+    font-size: 14px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+#mainImg {
+    float:right ;
+    width: 35%;
+}
+
+/*-----------pageContents-----------*/
+
+#pageContents {
+   width : 940px;
+   margin:0 auto ;
+}
+
+/*-----------pageMain-----------*/
+
+#pageMain {
+    : 600px;
+    : ;
+}
+
+#about,
+#python,
+#linux,
+#outline {
+    margin: 20px auto;
+    background-color: white;
+    border: solid 2px #9897A5;
+    padding: 30px ;
+}
+
+#python > h2{
+    color: blue;
+}
+
+#linux > h2{
+    color: red;
+}
+    
+
+
+/*-----------footer-----------*/
+
+footer {
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+aside > p {
+    margin: 0 auto;
+    color: ;
+    text-align: center;
+}
